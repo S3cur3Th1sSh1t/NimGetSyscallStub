@@ -12,5 +12,5 @@ nim c -d:release ShellcodeInject.nim
 
 The result should look like this:
 
-![alt text](https://raw.githubusercontent.com/S3cur3Th1sSh1t/NimGetSyscallStub/master/PoC.PNG)
+![alt text](https://github.com/S3cur3Th1sSh1t/NimGetSyscallStub/raw/main/PoC.PNG)
 
