@@ -1,6 +1,6 @@
 # NimGetSyscallStub
 
-Get fresh Syscalls from a fresh ntdll.dll copy. This code can be used as an alternative to the already published awesome tools [NimlineWhispers](https://github.com/ajpc500/NimlineWhispers) and [NimlineWhispers2](https://github.com/ajpc500/NimlineWhispers2) by [@ajpc500](https://twitter.com/ajpc500).
+Get fresh Syscalls from a fresh ntdll.dll copy. This code can be used as an alternative to the already published awesome tools [NimlineWhispers](https://github.com/ajpc500/NimlineWhispers) and [NimlineWhispers2](https://github.com/ajpc500/NimlineWhispers2) by [@ajpc500](https://twitter.com/ajpc500) or [ParallelNimcalls](https://github.com/frkngksl/ParallelNimcalls).
 
 The advantage of grabbing Syscalls dynamically is, that the signature of the Stubs is not included in the file and you don't have to worry about changing Windows versions.
 
