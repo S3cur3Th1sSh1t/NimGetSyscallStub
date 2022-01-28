@@ -83,4 +83,5 @@ proc GetSyscallStub*(functionName: LPCSTR, syscallStub: LPVOID): BOOL =
             copyMem(syscallStub, cast[LPVOID](functionVA), SYSCALL_STUB_SIZE)
             stubFound = 1
             echo "Found Syscall STUB!"
+            return stubFound
     return stubFound
